@@ -6,7 +6,17 @@ const passport = require('passport');
 const users = require('./routes/api/users');
 const profile = require('./routes/api/profile');
 const posts = require('./routes/api/posts');
+
+//import express from 'express';
+//import * as mongoose from 'mongoose';
+//import bodyParser from 'body-parser';
+//import passport from 'passport';
+
+//import users from './routes/api/users';
+//import profile from './routes/api/profile.js';
+//import posts from './routes/api/posts';
  
+// Create express server
 const app = express();
 
 // Bodyparser middleware
