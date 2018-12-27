@@ -42,7 +42,7 @@ const ProfileSchema = new Schema({
                 required: true
             },
             company: {
-               title: String,
+               type: String,
                required: true
             },
             location: {
@@ -71,11 +71,12 @@ const ProfileSchema = new Schema({
                 required: true
             },
             degree: {
-               title: String,
+               type: String,
                required: true
             },
             fieldOfStudy: {
-                type: String
+                type: String,
+                required: true
             },
             from: {
                 type: Date,
